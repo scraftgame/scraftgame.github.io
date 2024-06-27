@@ -355,23 +355,6 @@ footer p {
     max-width: 80%;
 }
 
-@media only screen and (max-width: 1700px) {
-    #presentation-card-grid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #devteam-card-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    #document-card-grid {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     #link-button-container {
         flex-direction: column;
