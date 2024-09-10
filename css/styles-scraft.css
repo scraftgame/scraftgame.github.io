@@ -386,9 +386,24 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    #document-card-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #devteam-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
-    #devteam-card-grid {
+    #presentation-card-grid, #devteam-card-grid {
         display: flex;
         flex-direction: column;
     }
